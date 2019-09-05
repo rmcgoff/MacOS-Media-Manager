@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CollectionViewItem" customModule="Assignment2" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xAK-hM-3QS">
+                    <rect key="frame" x="24" y="30" width="252" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="248" id="1cd-Jt-YhR"/>
+                        <constraint firstAttribute="height" constant="17" id="76u-cE-nws"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="           " id="4yD-Pv-CpJ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZCK-Dp-hYx">
+                    <rect key="frame" x="0.0" y="47" width="300" height="253"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="O7Y-hF-u8U"/>
+                        <constraint firstAttribute="height" constant="253" id="cc6-2D-4CX"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="ia7-vC-NL0"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="xAK-hM-3QS" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="26" id="37y-BN-qhH"/>
+                <constraint firstAttribute="trailing" secondItem="ZCK-Dp-hYx" secondAttribute="trailing" id="BB8-3M-pn6"/>
+                <constraint firstAttribute="trailing" secondItem="xAK-hM-3QS" secondAttribute="trailing" constant="26" id="WvB-Ix-BqP"/>
+                <constraint firstItem="ZCK-Dp-hYx" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="bGH-yb-t3H"/>
+                <constraint firstItem="ZCK-Dp-hYx" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="ouV-iT-PTg"/>
+                <constraint firstItem="xAK-hM-3QS" firstAttribute="top" secondItem="ZCK-Dp-hYx" secondAttribute="bottom" id="p7C-tj-PJ5"/>
+                <constraint firstAttribute="bottom" secondItem="xAK-hM-3QS" secondAttribute="bottom" constant="30" id="uPk-Bi-eP1"/>
+            </constraints>
+            <point key="canvasLocation" x="28" y="103"/>
+        </customView>
+        <customObject id="old-6g-jCb" customClass="CollectionViewItem" customModule="Assignment2" customModuleProvider="target">
+            <connections>
+                <outlet property="outletImage" destination="ZCK-Dp-hYx" id="ut4-Zc-qDE"/>
+                <outlet property="outletLabel" destination="xAK-hM-3QS" id="cUv-4w-alJ"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="8dy-gZ-d0Y"/>
+            </connections>
+        </customObject>
+    </objects>
+</document>

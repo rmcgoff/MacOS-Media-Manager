@@ -1,0 +1,62 @@
+[
+  {
+    "metadata" : {
+      "creator" : "unknown",
+      "date-created" : "03-10-2018 10:08",
+      "words" : "2500"
+    },
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/doc.pdf",
+    "type" : "document",
+    "notes" : "dthgnet"
+  },
+  {
+    "type" : "image",
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/image1.png",
+    "metadata" : {
+      "date" : "1900",
+      "date-created" : "03-10-2018 10:08",
+      "creator" : "Leo",
+      "resolution" : "1444"
+    }
+  },
+  {
+    "type" : "image",
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/image2.jpg",
+    "metadata" : {
+      "date" : "17777",
+      "date-created" : "03-10-2018 10:08",
+      "creator" : "jerry",
+      "resolution" : "1400"
+    }
+  },
+  {
+    "type" : "video",
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/Carousel.mov",
+    "metadata" : {
+      "date-created" : "03-10-2018 10:08",
+      "resolution" : "1400",
+      "creator" : "jerry",
+      "runtime" : "140"
+    }
+  },
+  {
+    "type" : "audio",
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/sample.m4a",
+    "metadata" : {
+      "date-created" : "03-10-2018 10:08",
+      "runtime" : "140",
+      "creator" : "jerry"
+    }
+  },
+  {
+    "metadata" : {
+      "date-created" : "03-10-2018 10:08",
+      "creator" : "jerry",
+      "hello" : "world",
+      "genre" : "fiction"
+    },
+    "fullpath" : "\/home\/cshome\/j\/jkumar\/346\/asgn2\/assignment-two-media-manager-gui-hamzabanana\/Assignment2\/Assignment2\/testfile.txt",
+    "type" : "document",
+    "notes" : ""
+  }
+]

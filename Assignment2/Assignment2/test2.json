@@ -1,0 +1,20 @@
+[
+    {
+      "fullpath": "/path/to/test2.jpg",
+      "type": "image",
+      "metadata": {
+        "creator": "jerry",
+        "resolution": "444",
+        "jerry": "flim"
+
+      }
+    },
+    {
+        "fullpath": "/path/to/test2part2.mp3",
+        "type": "audio",
+        "metadata": {
+          "creator": "jezza",
+          "runtime": "720"
+        }
+      }
+]

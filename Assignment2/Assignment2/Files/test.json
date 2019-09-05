@@ -1,0 +1,55 @@
+ [
+  {
+  "type" : "document",
+  "fullpath" : "/home/346/doc.pdf",
+  "metadata" : {
+    "words" : "2500",
+    "creator" : "unknown"
+    }
+  },
+  {
+  "type" : "image",
+  "fullpath" : "/home/346/image1.png",
+  "metadata" : {
+    "resolution" : "1444",
+    "date" : "1900",
+    "creator" : "Leo"
+    }
+  },
+  {
+    "type" : "image",
+    "fullpath" : "/home/346/image2.jpg",
+    "metadata" : {
+      "resolution" : "1400",
+      "date" : "17777",
+      "creator" : "jerry"
+      }
+    },
+  {
+  "type" : "video",
+  "fullpath" : "/home/346/Carousel.mov",
+  "metadata" : {
+  "resolution" : "1400",
+  "runtime" : "140",
+  "creator" : "jerry"
+  }
+  },
+  {
+  "type" : "audio",
+  "fullpath" : "/home/346/sample.m4a",
+  "metadata" : {
+  "runtime" : "140",
+  "creator" : "jerry"
+  }
+  },
+  {
+  "type" : "document",
+  "fullpath" : "/home/346/testfile.txt",
+  "metadata" : {
+  "genre" : "fiction",
+  "hello" : "world",
+  "creator" : "jerry"
+  }
+  }
+
+  ]
